@@ -92,13 +92,36 @@ body {
   font-size: 0.9rem;
 }
 
-.compare-grid {
+.compare-grid,
+.pred-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
   gap: 1rem;
   align-items: start;
-  max-width: 960px;
   margin: 0 auto;
+}
+
+.compare-grid {
+  grid-template-columns: 1fr 1fr;
+  max-width: 960px;
+}
+
+.pred-grid {
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 100%;
+}
+
+.panel-desc {
+  margin: -0.35rem 0 0.85rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.img-wrap--tall {
+  max-height: 520px;
+}
+
+.img-wrap--tall img {
+  max-height: 500px;
 }
 
 .compare-col h3 {
@@ -298,7 +321,8 @@ body {
     grid-template-columns: 1fr;
   }
 
-  .compare-grid {
+  .compare-grid,
+  .pred-grid {
     grid-template-columns: 1fr;
   }
 }

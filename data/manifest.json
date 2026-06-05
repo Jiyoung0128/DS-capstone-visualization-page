@@ -12,8 +12,15 @@
       "has_results": true,
       "has_figure": true,
       "has_baseline_figure": true,
+      "has_sale_prediction": true,
+      "has_sale_pred_baseline": true,
+      "has_sale_pred_proposed": true,
+      "has_sale_pred_actual": true,
       "figure_url": "assets/rounds/2026-05-05_19-00/seat_map_theater_price_proposed.png",
-      "baseline_figure_url": "assets/rounds/2026-05-05_19-00/seat_map_theater_price_baseline.png"
+      "baseline_figure_url": "assets/rounds/2026-05-05_19-00/seat_map_theater_price_baseline.png",
+      "sale_pred_baseline_url": "assets/rounds/2026-05-05_19-00/seat_map_prob_baseline.png",
+      "sale_pred_proposed_url": "assets/rounds/2026-05-05_19-00/seat_map_prob_proposed.png",
+      "sale_pred_actual_url": "assets/rounds/2026-05-05_19-00/seat_map_actual_sold.png"
     },
     {
       "round_id": "2026-05-06_19:30",
@@ -24,8 +31,15 @@
       "has_results": true,
       "has_figure": true,
       "has_baseline_figure": true,
+      "has_sale_prediction": true,
+      "has_sale_pred_baseline": true,
+      "has_sale_pred_proposed": true,
+      "has_sale_pred_actual": true,
       "figure_url": "assets/rounds/2026-05-06_19-30/seat_map_theater_price_proposed.png",
-      "baseline_figure_url": "assets/rounds/2026-05-06_19-30/seat_map_theater_price_baseline.png"
+      "baseline_figure_url": "assets/rounds/2026-05-06_19-30/seat_map_theater_price_baseline.png",
+      "sale_pred_baseline_url": "assets/rounds/2026-05-06_19-30/seat_map_prob_baseline.png",
+      "sale_pred_proposed_url": "assets/rounds/2026-05-06_19-30/seat_map_prob_proposed.png",
+      "sale_pred_actual_url": "assets/rounds/2026-05-06_19-30/seat_map_actual_sold.png"
     },
     {
       "round_id": "2026-05-07_19:30",
@@ -36,8 +50,15 @@
       "has_results": true,
       "has_figure": true,
       "has_baseline_figure": true,
+      "has_sale_prediction": true,
+      "has_sale_pred_baseline": true,
+      "has_sale_pred_proposed": true,
+      "has_sale_pred_actual": true,
       "figure_url": "assets/rounds/2026-05-07_19-30/seat_map_theater_price_proposed.png",
-      "baseline_figure_url": "assets/rounds/2026-05-07_19-30/seat_map_theater_price_baseline.png"
+      "baseline_figure_url": "assets/rounds/2026-05-07_19-30/seat_map_theater_price_baseline.png",
+      "sale_pred_baseline_url": "assets/rounds/2026-05-07_19-30/seat_map_prob_baseline.png",
+      "sale_pred_proposed_url": "assets/rounds/2026-05-07_19-30/seat_map_prob_proposed.png",
+      "sale_pred_actual_url": "assets/rounds/2026-05-07_19-30/seat_map_actual_sold.png"
     },
     {
       "round_id": "2026-05-08_19:30",
@@ -48,8 +69,15 @@
       "has_results": true,
       "has_figure": true,
       "has_baseline_figure": true,
+      "has_sale_prediction": true,
+      "has_sale_pred_baseline": true,
+      "has_sale_pred_proposed": true,
+      "has_sale_pred_actual": true,
       "figure_url": "assets/rounds/2026-05-08_19-30/seat_map_theater_price_proposed.png",
-      "baseline_figure_url": "assets/rounds/2026-05-08_19-30/seat_map_theater_price_baseline.png"
+      "baseline_figure_url": "assets/rounds/2026-05-08_19-30/seat_map_theater_price_baseline.png",
+      "sale_pred_baseline_url": "assets/rounds/2026-05-08_19-30/seat_map_prob_baseline.png",
+      "sale_pred_proposed_url": "assets/rounds/2026-05-08_19-30/seat_map_prob_proposed.png",
+      "sale_pred_actual_url": "assets/rounds/2026-05-08_19-30/seat_map_actual_sold.png"
     },
     {
       "round_id": "2026-05-09_19:00",
@@ -60,8 +88,15 @@
       "has_results": true,
       "has_figure": true,
       "has_baseline_figure": true,
+      "has_sale_prediction": true,
+      "has_sale_pred_baseline": true,
+      "has_sale_pred_proposed": true,
+      "has_sale_pred_actual": true,
       "figure_url": "assets/rounds/2026-05-09_19-00/seat_map_theater_price_proposed.png",
-      "baseline_figure_url": "assets/rounds/2026-05-09_19-00/seat_map_theater_price_baseline.png"
+      "baseline_figure_url": "assets/rounds/2026-05-09_19-00/seat_map_theater_price_baseline.png",
+      "sale_pred_baseline_url": "assets/rounds/2026-05-09_19-00/seat_map_prob_baseline.png",
+      "sale_pred_proposed_url": "assets/rounds/2026-05-09_19-00/seat_map_prob_proposed.png",
+      "sale_pred_actual_url": "assets/rounds/2026-05-09_19-00/seat_map_actual_sold.png"
     },
     {
       "round_id": "2026-05-10_14:00",
@@ -72,8 +107,15 @@
       "has_results": true,
       "has_figure": true,
       "has_baseline_figure": true,
+      "has_sale_prediction": true,
+      "has_sale_pred_baseline": true,
+      "has_sale_pred_proposed": true,
+      "has_sale_pred_actual": true,
       "figure_url": "assets/rounds/2026-05-10_14-00/seat_map_theater_price_proposed.png",
-      "baseline_figure_url": "assets/rounds/2026-05-10_14-00/seat_map_theater_price_baseline.png"
+      "baseline_figure_url": "assets/rounds/2026-05-10_14-00/seat_map_theater_price_baseline.png",
+      "sale_pred_baseline_url": "assets/rounds/2026-05-10_14-00/seat_map_prob_baseline.png",
+      "sale_pred_proposed_url": "assets/rounds/2026-05-10_14-00/seat_map_prob_proposed.png",
+      "sale_pred_actual_url": "assets/rounds/2026-05-10_14-00/seat_map_actual_sold.png"
     },
     {
       "round_id": "2026-05-10_19:00",
@@ -84,8 +126,15 @@
       "has_results": true,
       "has_figure": true,
       "has_baseline_figure": true,
+      "has_sale_prediction": true,
+      "has_sale_pred_baseline": true,
+      "has_sale_pred_proposed": true,
+      "has_sale_pred_actual": true,
       "figure_url": "assets/rounds/2026-05-10_19-00/seat_map_theater_price_proposed.png",
-      "baseline_figure_url": "assets/rounds/2026-05-10_19-00/seat_map_theater_price_baseline.png"
+      "baseline_figure_url": "assets/rounds/2026-05-10_19-00/seat_map_theater_price_baseline.png",
+      "sale_pred_baseline_url": "assets/rounds/2026-05-10_19-00/seat_map_prob_baseline.png",
+      "sale_pred_proposed_url": "assets/rounds/2026-05-10_19-00/seat_map_prob_proposed.png",
+      "sale_pred_actual_url": "assets/rounds/2026-05-10_19-00/seat_map_actual_sold.png"
     },
     {
       "round_id": "2026-05-12_19:30",
@@ -96,8 +145,15 @@
       "has_results": true,
       "has_figure": true,
       "has_baseline_figure": true,
+      "has_sale_prediction": true,
+      "has_sale_pred_baseline": true,
+      "has_sale_pred_proposed": true,
+      "has_sale_pred_actual": true,
       "figure_url": "assets/rounds/2026-05-12_19-30/seat_map_theater_price_proposed.png",
-      "baseline_figure_url": "assets/rounds/2026-05-12_19-30/seat_map_theater_price_baseline.png"
+      "baseline_figure_url": "assets/rounds/2026-05-12_19-30/seat_map_theater_price_baseline.png",
+      "sale_pred_baseline_url": "assets/rounds/2026-05-12_19-30/seat_map_prob_baseline.png",
+      "sale_pred_proposed_url": "assets/rounds/2026-05-12_19-30/seat_map_prob_proposed.png",
+      "sale_pred_actual_url": "assets/rounds/2026-05-12_19-30/seat_map_actual_sold.png"
     },
     {
       "round_id": "2026-05-13_14:30",
@@ -108,8 +164,15 @@
       "has_results": true,
       "has_figure": true,
       "has_baseline_figure": true,
+      "has_sale_prediction": true,
+      "has_sale_pred_baseline": true,
+      "has_sale_pred_proposed": true,
+      "has_sale_pred_actual": true,
       "figure_url": "assets/rounds/2026-05-13_14-30/seat_map_theater_price_proposed.png",
-      "baseline_figure_url": "assets/rounds/2026-05-13_14-30/seat_map_theater_price_baseline.png"
+      "baseline_figure_url": "assets/rounds/2026-05-13_14-30/seat_map_theater_price_baseline.png",
+      "sale_pred_baseline_url": "assets/rounds/2026-05-13_14-30/seat_map_prob_baseline.png",
+      "sale_pred_proposed_url": "assets/rounds/2026-05-13_14-30/seat_map_prob_proposed.png",
+      "sale_pred_actual_url": "assets/rounds/2026-05-13_14-30/seat_map_actual_sold.png"
     },
     {
       "round_id": "2026-05-13_19:30",
@@ -120,8 +183,15 @@
       "has_results": true,
       "has_figure": true,
       "has_baseline_figure": true,
+      "has_sale_prediction": true,
+      "has_sale_pred_baseline": true,
+      "has_sale_pred_proposed": true,
+      "has_sale_pred_actual": true,
       "figure_url": "assets/rounds/2026-05-13_19-30/seat_map_theater_price_proposed.png",
-      "baseline_figure_url": "assets/rounds/2026-05-13_19-30/seat_map_theater_price_baseline.png"
+      "baseline_figure_url": "assets/rounds/2026-05-13_19-30/seat_map_theater_price_baseline.png",
+      "sale_pred_baseline_url": "assets/rounds/2026-05-13_19-30/seat_map_prob_baseline.png",
+      "sale_pred_proposed_url": "assets/rounds/2026-05-13_19-30/seat_map_prob_proposed.png",
+      "sale_pred_actual_url": "assets/rounds/2026-05-13_19-30/seat_map_actual_sold.png"
     },
     {
       "round_id": "2026-05-14_19:30",
@@ -132,8 +202,15 @@
       "has_results": true,
       "has_figure": true,
       "has_baseline_figure": true,
+      "has_sale_prediction": true,
+      "has_sale_pred_baseline": true,
+      "has_sale_pred_proposed": true,
+      "has_sale_pred_actual": true,
       "figure_url": "assets/rounds/2026-05-14_19-30/seat_map_theater_price_proposed.png",
-      "baseline_figure_url": "assets/rounds/2026-05-14_19-30/seat_map_theater_price_baseline.png"
+      "baseline_figure_url": "assets/rounds/2026-05-14_19-30/seat_map_theater_price_baseline.png",
+      "sale_pred_baseline_url": "assets/rounds/2026-05-14_19-30/seat_map_prob_baseline.png",
+      "sale_pred_proposed_url": "assets/rounds/2026-05-14_19-30/seat_map_prob_proposed.png",
+      "sale_pred_actual_url": "assets/rounds/2026-05-14_19-30/seat_map_actual_sold.png"
     },
     {
       "round_id": "2026-05-15_19:30",
@@ -144,8 +221,15 @@
       "has_results": true,
       "has_figure": true,
       "has_baseline_figure": true,
+      "has_sale_prediction": true,
+      "has_sale_pred_baseline": true,
+      "has_sale_pred_proposed": true,
+      "has_sale_pred_actual": true,
       "figure_url": "assets/rounds/2026-05-15_19-30/seat_map_theater_price_proposed.png",
-      "baseline_figure_url": "assets/rounds/2026-05-15_19-30/seat_map_theater_price_baseline.png"
+      "baseline_figure_url": "assets/rounds/2026-05-15_19-30/seat_map_theater_price_baseline.png",
+      "sale_pred_baseline_url": "assets/rounds/2026-05-15_19-30/seat_map_prob_baseline.png",
+      "sale_pred_proposed_url": "assets/rounds/2026-05-15_19-30/seat_map_prob_proposed.png",
+      "sale_pred_actual_url": "assets/rounds/2026-05-15_19-30/seat_map_actual_sold.png"
     },
     {
       "round_id": "2026-05-16_14:00",
@@ -156,8 +240,15 @@
       "has_results": true,
       "has_figure": true,
       "has_baseline_figure": true,
+      "has_sale_prediction": true,
+      "has_sale_pred_baseline": true,
+      "has_sale_pred_proposed": true,
+      "has_sale_pred_actual": true,
       "figure_url": "assets/rounds/2026-05-16_14-00/seat_map_theater_price_proposed.png",
-      "baseline_figure_url": "assets/rounds/2026-05-16_14-00/seat_map_theater_price_baseline.png"
+      "baseline_figure_url": "assets/rounds/2026-05-16_14-00/seat_map_theater_price_baseline.png",
+      "sale_pred_baseline_url": "assets/rounds/2026-05-16_14-00/seat_map_prob_baseline.png",
+      "sale_pred_proposed_url": "assets/rounds/2026-05-16_14-00/seat_map_prob_proposed.png",
+      "sale_pred_actual_url": "assets/rounds/2026-05-16_14-00/seat_map_actual_sold.png"
     },
     {
       "round_id": "2026-05-16_19:00",
@@ -168,8 +259,15 @@
       "has_results": true,
       "has_figure": true,
       "has_baseline_figure": true,
+      "has_sale_prediction": true,
+      "has_sale_pred_baseline": true,
+      "has_sale_pred_proposed": true,
+      "has_sale_pred_actual": true,
       "figure_url": "assets/rounds/2026-05-16_19-00/seat_map_theater_price_proposed.png",
-      "baseline_figure_url": "assets/rounds/2026-05-16_19-00/seat_map_theater_price_baseline.png"
+      "baseline_figure_url": "assets/rounds/2026-05-16_19-00/seat_map_theater_price_baseline.png",
+      "sale_pred_baseline_url": "assets/rounds/2026-05-16_19-00/seat_map_prob_baseline.png",
+      "sale_pred_proposed_url": "assets/rounds/2026-05-16_19-00/seat_map_prob_proposed.png",
+      "sale_pred_actual_url": "assets/rounds/2026-05-16_19-00/seat_map_actual_sold.png"
     },
     {
       "round_id": "2026-05-17_14:00",
@@ -180,8 +278,15 @@
       "has_results": true,
       "has_figure": true,
       "has_baseline_figure": true,
+      "has_sale_prediction": true,
+      "has_sale_pred_baseline": true,
+      "has_sale_pred_proposed": true,
+      "has_sale_pred_actual": true,
       "figure_url": "assets/rounds/2026-05-17_14-00/seat_map_theater_price_proposed.png",
-      "baseline_figure_url": "assets/rounds/2026-05-17_14-00/seat_map_theater_price_baseline.png"
+      "baseline_figure_url": "assets/rounds/2026-05-17_14-00/seat_map_theater_price_baseline.png",
+      "sale_pred_baseline_url": "assets/rounds/2026-05-17_14-00/seat_map_prob_baseline.png",
+      "sale_pred_proposed_url": "assets/rounds/2026-05-17_14-00/seat_map_prob_proposed.png",
+      "sale_pred_actual_url": "assets/rounds/2026-05-17_14-00/seat_map_actual_sold.png"
     },
     {
       "round_id": "2026-05-17_19:00",
@@ -192,8 +297,15 @@
       "has_results": true,
       "has_figure": true,
       "has_baseline_figure": true,
+      "has_sale_prediction": true,
+      "has_sale_pred_baseline": true,
+      "has_sale_pred_proposed": true,
+      "has_sale_pred_actual": true,
       "figure_url": "assets/rounds/2026-05-17_19-00/seat_map_theater_price_proposed.png",
-      "baseline_figure_url": "assets/rounds/2026-05-17_19-00/seat_map_theater_price_baseline.png"
+      "baseline_figure_url": "assets/rounds/2026-05-17_19-00/seat_map_theater_price_baseline.png",
+      "sale_pred_baseline_url": "assets/rounds/2026-05-17_19-00/seat_map_prob_baseline.png",
+      "sale_pred_proposed_url": "assets/rounds/2026-05-17_19-00/seat_map_prob_proposed.png",
+      "sale_pred_actual_url": "assets/rounds/2026-05-17_19-00/seat_map_actual_sold.png"
     },
     {
       "round_id": "2026-05-19_19:30",
@@ -204,8 +316,15 @@
       "has_results": true,
       "has_figure": true,
       "has_baseline_figure": true,
+      "has_sale_prediction": true,
+      "has_sale_pred_baseline": true,
+      "has_sale_pred_proposed": true,
+      "has_sale_pred_actual": true,
       "figure_url": "assets/rounds/2026-05-19_19-30/seat_map_theater_price_proposed.png",
-      "baseline_figure_url": "assets/rounds/2026-05-19_19-30/seat_map_theater_price_baseline.png"
+      "baseline_figure_url": "assets/rounds/2026-05-19_19-30/seat_map_theater_price_baseline.png",
+      "sale_pred_baseline_url": "assets/rounds/2026-05-19_19-30/seat_map_prob_baseline.png",
+      "sale_pred_proposed_url": "assets/rounds/2026-05-19_19-30/seat_map_prob_proposed.png",
+      "sale_pred_actual_url": "assets/rounds/2026-05-19_19-30/seat_map_actual_sold.png"
     },
     {
       "round_id": "2026-05-20_14:30",
@@ -216,8 +335,15 @@
       "has_results": true,
       "has_figure": true,
       "has_baseline_figure": true,
+      "has_sale_prediction": true,
+      "has_sale_pred_baseline": true,
+      "has_sale_pred_proposed": true,
+      "has_sale_pred_actual": true,
       "figure_url": "assets/rounds/2026-05-20_14-30/seat_map_theater_price_proposed.png",
-      "baseline_figure_url": "assets/rounds/2026-05-20_14-30/seat_map_theater_price_baseline.png"
+      "baseline_figure_url": "assets/rounds/2026-05-20_14-30/seat_map_theater_price_baseline.png",
+      "sale_pred_baseline_url": "assets/rounds/2026-05-20_14-30/seat_map_prob_baseline.png",
+      "sale_pred_proposed_url": "assets/rounds/2026-05-20_14-30/seat_map_prob_proposed.png",
+      "sale_pred_actual_url": "assets/rounds/2026-05-20_14-30/seat_map_actual_sold.png"
     },
     {
       "round_id": "2026-05-20_19:30",
@@ -228,8 +354,15 @@
       "has_results": true,
       "has_figure": true,
       "has_baseline_figure": true,
+      "has_sale_prediction": true,
+      "has_sale_pred_baseline": true,
+      "has_sale_pred_proposed": true,
+      "has_sale_pred_actual": true,
       "figure_url": "assets/rounds/2026-05-20_19-30/seat_map_theater_price_proposed.png",
-      "baseline_figure_url": "assets/rounds/2026-05-20_19-30/seat_map_theater_price_baseline.png"
+      "baseline_figure_url": "assets/rounds/2026-05-20_19-30/seat_map_theater_price_baseline.png",
+      "sale_pred_baseline_url": "assets/rounds/2026-05-20_19-30/seat_map_prob_baseline.png",
+      "sale_pred_proposed_url": "assets/rounds/2026-05-20_19-30/seat_map_prob_proposed.png",
+      "sale_pred_actual_url": "assets/rounds/2026-05-20_19-30/seat_map_actual_sold.png"
     },
     {
       "round_id": "2026-05-21_19:30",
@@ -240,8 +373,15 @@
       "has_results": true,
       "has_figure": true,
       "has_baseline_figure": true,
+      "has_sale_prediction": true,
+      "has_sale_pred_baseline": true,
+      "has_sale_pred_proposed": true,
+      "has_sale_pred_actual": true,
       "figure_url": "assets/rounds/2026-05-21_19-30/seat_map_theater_price_proposed.png",
-      "baseline_figure_url": "assets/rounds/2026-05-21_19-30/seat_map_theater_price_baseline.png"
+      "baseline_figure_url": "assets/rounds/2026-05-21_19-30/seat_map_theater_price_baseline.png",
+      "sale_pred_baseline_url": "assets/rounds/2026-05-21_19-30/seat_map_prob_baseline.png",
+      "sale_pred_proposed_url": "assets/rounds/2026-05-21_19-30/seat_map_prob_proposed.png",
+      "sale_pred_actual_url": "assets/rounds/2026-05-21_19-30/seat_map_actual_sold.png"
     },
     {
       "round_id": "2026-05-22_19:30",
@@ -252,8 +392,15 @@
       "has_results": true,
       "has_figure": true,
       "has_baseline_figure": true,
+      "has_sale_prediction": true,
+      "has_sale_pred_baseline": true,
+      "has_sale_pred_proposed": true,
+      "has_sale_pred_actual": true,
       "figure_url": "assets/rounds/2026-05-22_19-30/seat_map_theater_price_proposed.png",
-      "baseline_figure_url": "assets/rounds/2026-05-22_19-30/seat_map_theater_price_baseline.png"
+      "baseline_figure_url": "assets/rounds/2026-05-22_19-30/seat_map_theater_price_baseline.png",
+      "sale_pred_baseline_url": "assets/rounds/2026-05-22_19-30/seat_map_prob_baseline.png",
+      "sale_pred_proposed_url": "assets/rounds/2026-05-22_19-30/seat_map_prob_proposed.png",
+      "sale_pred_actual_url": "assets/rounds/2026-05-22_19-30/seat_map_actual_sold.png"
     },
     {
       "round_id": "2026-05-23_14:00",
@@ -264,8 +411,15 @@
       "has_results": true,
       "has_figure": true,
       "has_baseline_figure": true,
+      "has_sale_prediction": true,
+      "has_sale_pred_baseline": true,
+      "has_sale_pred_proposed": true,
+      "has_sale_pred_actual": true,
       "figure_url": "assets/rounds/2026-05-23_14-00/seat_map_theater_price_proposed.png",
-      "baseline_figure_url": "assets/rounds/2026-05-23_14-00/seat_map_theater_price_baseline.png"
+      "baseline_figure_url": "assets/rounds/2026-05-23_14-00/seat_map_theater_price_baseline.png",
+      "sale_pred_baseline_url": "assets/rounds/2026-05-23_14-00/seat_map_prob_baseline.png",
+      "sale_pred_proposed_url": "assets/rounds/2026-05-23_14-00/seat_map_prob_proposed.png",
+      "sale_pred_actual_url": "assets/rounds/2026-05-23_14-00/seat_map_actual_sold.png"
     },
     {
       "round_id": "2026-05-23_19:00",
@@ -276,8 +430,15 @@
       "has_results": true,
       "has_figure": true,
       "has_baseline_figure": true,
+      "has_sale_prediction": true,
+      "has_sale_pred_baseline": true,
+      "has_sale_pred_proposed": true,
+      "has_sale_pred_actual": true,
       "figure_url": "assets/rounds/2026-05-23_19-00/seat_map_theater_price_proposed.png",
-      "baseline_figure_url": "assets/rounds/2026-05-23_19-00/seat_map_theater_price_baseline.png"
+      "baseline_figure_url": "assets/rounds/2026-05-23_19-00/seat_map_theater_price_baseline.png",
+      "sale_pred_baseline_url": "assets/rounds/2026-05-23_19-00/seat_map_prob_baseline.png",
+      "sale_pred_proposed_url": "assets/rounds/2026-05-23_19-00/seat_map_prob_proposed.png",
+      "sale_pred_actual_url": "assets/rounds/2026-05-23_19-00/seat_map_actual_sold.png"
     },
     {
       "round_id": "2026-05-24_14:00",
@@ -288,8 +449,15 @@
       "has_results": true,
       "has_figure": true,
       "has_baseline_figure": true,
+      "has_sale_prediction": true,
+      "has_sale_pred_baseline": true,
+      "has_sale_pred_proposed": true,
+      "has_sale_pred_actual": true,
       "figure_url": "assets/rounds/2026-05-24_14-00/seat_map_theater_price_proposed.png",
-      "baseline_figure_url": "assets/rounds/2026-05-24_14-00/seat_map_theater_price_baseline.png"
+      "baseline_figure_url": "assets/rounds/2026-05-24_14-00/seat_map_theater_price_baseline.png",
+      "sale_pred_baseline_url": "assets/rounds/2026-05-24_14-00/seat_map_prob_baseline.png",
+      "sale_pred_proposed_url": "assets/rounds/2026-05-24_14-00/seat_map_prob_proposed.png",
+      "sale_pred_actual_url": "assets/rounds/2026-05-24_14-00/seat_map_actual_sold.png"
     },
     {
       "round_id": "2026-05-24_19:00",
@@ -300,8 +468,15 @@
       "has_results": true,
       "has_figure": true,
       "has_baseline_figure": true,
+      "has_sale_prediction": true,
+      "has_sale_pred_baseline": true,
+      "has_sale_pred_proposed": true,
+      "has_sale_pred_actual": true,
       "figure_url": "assets/rounds/2026-05-24_19-00/seat_map_theater_price_proposed.png",
-      "baseline_figure_url": "assets/rounds/2026-05-24_19-00/seat_map_theater_price_baseline.png"
+      "baseline_figure_url": "assets/rounds/2026-05-24_19-00/seat_map_theater_price_baseline.png",
+      "sale_pred_baseline_url": "assets/rounds/2026-05-24_19-00/seat_map_prob_baseline.png",
+      "sale_pred_proposed_url": "assets/rounds/2026-05-24_19-00/seat_map_prob_proposed.png",
+      "sale_pred_actual_url": "assets/rounds/2026-05-24_19-00/seat_map_actual_sold.png"
     }
   ],
   "class_plot": "assets/class-seatmap.png"

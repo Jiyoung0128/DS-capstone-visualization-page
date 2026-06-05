@@ -74,9 +74,37 @@
             <table id="kpi-table" class="kpi-table"></table>
           </div>
         </section>
+
+        <section id="sale-pred-panel" class="panel is-collapsed">
+          <h2 id="sale-pred-title">판매 확률 예측 — 극장 좌석도 (YlOrRd)</h2>
+          <p class="panel-desc">모델이 예측한 좌석별 판매 확률과 실제 판매 여부를 극장 배치로 비교합니다.</p>
+          <div class="pred-grid">
+            <div class="compare-col">
+              <h3>관측가 기준 판매확률</h3>
+              <div class="img-wrap img-wrap--tall">
+                <img id="sale-pred-baseline" alt="관측가 기준 판매 확률 히트맵" loading="lazy" />
+              </div>
+              <p id="sale-pred-baseline-hint" class="figure-hint" hidden></p>
+            </div>
+            <div class="compare-col">
+              <h3>제안가 기준 판매확률</h3>
+              <div class="img-wrap img-wrap--tall">
+                <img id="sale-pred-proposed" alt="제안가 기준 판매 확률 히트맵" loading="lazy" />
+              </div>
+              <p id="sale-pred-proposed-hint" class="figure-hint" hidden></p>
+            </div>
+            <div class="compare-col">
+              <h3>실제 판매 (is_sold)</h3>
+              <div class="img-wrap img-wrap--tall">
+                <img id="sale-pred-actual" alt="실제 판매 여부 히트맵" loading="lazy" />
+              </div>
+              <p id="sale-pred-actual-hint" class="figure-hint" hidden></p>
+            </div>
+          </div>
+        </section>
       </div>
     </main>
 
-    <script type="module" src="js/app.js?v=20260604c"></script>
+    <script type="module" src="js/app.js?v=20260604d"></script>
   </body>
 </html>

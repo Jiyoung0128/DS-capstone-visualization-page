@@ -21,6 +21,14 @@ const el = {
   kpiTable: document.getElementById("kpi-table"),
   optSeatmap: document.getElementById("opt-seatmap"),
   optFigureHint: document.getElementById("opt-figure-hint"),
+  salePredPanel: document.getElementById("sale-pred-panel"),
+  salePredTitle: document.getElementById("sale-pred-title"),
+  salePredBaseline: document.getElementById("sale-pred-baseline"),
+  salePredBaselineHint: document.getElementById("sale-pred-baseline-hint"),
+  salePredProposed: document.getElementById("sale-pred-proposed"),
+  salePredProposedHint: document.getElementById("sale-pred-proposed-hint"),
+  salePredActual: document.getElementById("sale-pred-actual"),
+  salePredActualHint: document.getElementById("sale-pred-actual-hint"),
   placeholder: document.getElementById("opt-placeholder"),
 };
 
@@ -250,6 +258,65 @@ async function selectRound(round) {
   }
 
   renderKpiTable(summary);
+  renderSalePredictionMaps(round);
+}
+
+function renderSalePredictionMaps(round) {
+  if (!el.salePredPanel) return;
+
+  const items = [
+    {
+      has: round.has_sale_pred_baseline,
+      url:
+        round.sale_pred_baseline_url ||
+        `assets/rounds/${round.slug}/seat_map_prob_baseline.png`,
+      img: el.salePredBaseline,
+      hint: el.salePredBaselineHint,
+      missing: "관측가 판매확률 히트맵이 없습니다.",
+    },
+    {
+      has: round.has_sale_pred_proposed,
+      url:
+        round.sale_pred_proposed_url ||
+        `assets/rounds/${round.slug}/seat_map_prob_proposed.png`,
+      img: el.salePredProposed,
+      hint: el.salePredProposedHint,
+      missing: "제안가 판매확률 히트맵이 없습니다.",
+    },
+    {
+      has: round.has_sale_pred_actual,
+      url:
+        round.sale_pred_actual_url ||
+        `assets/rounds/${round.slug}/seat_map_actual_sold.png`,
+      img: el.salePredActual,
+      hint: el.salePredActualHint,
+      missing: "실제 판매 히트맵이 없습니다.",
+    },
+  ];
+
+  const any = items.some((item) => item.has);
+  if (!any) {
+    hidePanel(el.salePredPanel);
+    return;
+  }
+
+  showPanel(el.salePredPanel);
+  if (el.salePredTitle) {
+    el.salePredTitle.textContent = `${round.date} ${round.time} — 판매 확률 예측 (극장 좌석도)`;
+  }
+
+  for (const item of items) {
+    if (item.has) {
+      bindSeatmapImage(item.img, item.url, item.hint, item.missing);
+    } else if (item.hint) {
+      if (item.img) {
+        item.img.style.display = "none";
+        item.img.removeAttribute("src");
+      }
+      item.hint.hidden = false;
+      item.hint.textContent = item.missing;
+    }
+  }
 }
 
 function renderKpiTable(summary) {
@@ -307,6 +374,7 @@ function renderKpiTable(summary) {
 function clearOptimization() {
   hidePanel(el.comparePanel);
   hidePanel(el.kpiPanel);
+  hidePanel(el.salePredPanel);
   if (el.placeholder) {
     showPanel(el.placeholder);
     el.placeholder.textContent =
@@ -322,6 +390,17 @@ function clearOptimization() {
     el.optSeatmap.removeAttribute("src");
   }
   if (el.optFigureHint) el.optFigureHint.hidden = true;
+  for (const [img, hint] of [
+    [el.salePredBaseline, el.salePredBaselineHint],
+    [el.salePredProposed, el.salePredProposedHint],
+    [el.salePredActual, el.salePredActualHint],
+  ]) {
+    if (img) {
+      img.style.display = "none";
+      img.removeAttribute("src");
+    }
+    if (hint) hint.hidden = true;
+  }
   if (el.kpiTable) el.kpiTable.innerHTML = "";
 }
 
