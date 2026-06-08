@@ -18,6 +18,7 @@ const el = {
   baselineSeatmap: document.getElementById("baseline-seatmap"),
   baselineFigureHint: document.getElementById("baseline-figure-hint"),
   kpiPanel: document.getElementById("kpi-panel"),
+  kpiNote: document.getElementById("kpi-note"),
   kpiTable: document.getElementById("kpi-table"),
   optSeatmap: document.getElementById("opt-seatmap"),
   optFigureHint: document.getElementById("opt-figure-hint"),
@@ -324,13 +325,37 @@ function renderKpiTable(summary) {
   const opt = summary.per_seat_optimized;
   if (!el.kpiTable) return;
 
+  const isThreshold = String(summary.kpi_method || "").startsWith("threshold_");
+  const thresholdVal = isThreshold
+    ? String(summary.kpi_method).replace("threshold_", "")
+    : null;
+
+  if (el.kpiNote) {
+    if (isThreshold) {
+      el.kpiNote.hidden = false;
+      const model = summary.kpi_model ? ` (${summary.kpi_model})` : "";
+      el.kpiNote.textContent =
+        `제안 KPI: 판매확률 ≥ ${thresholdVal} → 판매 1, × 제안가. 기존: 실제 판매 × 관측가${model}.`;
+    } else if (manifest?.kpi_note) {
+      el.kpiNote.hidden = false;
+      el.kpiNote.textContent = manifest.kpi_note;
+    } else {
+      el.kpiNote.hidden = true;
+      el.kpiNote.textContent = "";
+    }
+  }
+
   const occDeltaPp = ((opt.occupancy_rate - base.occupancy_rate) * 100).toFixed(2);
   const revDeltaPct = base.expected_revenue
     ? (((opt.expected_revenue / base.expected_revenue) - 1) * 100).toFixed(2)
     : "—";
   const baseSold = Math.round(base.expected_sold);
   const optSold = Number(opt.expected_sold);
-  const soldDelta = (optSold - baseSold).toFixed(1);
+  const soldDelta = isThreshold
+    ? String(Math.round(optSold) - baseSold)
+    : (optSold - baseSold).toFixed(1);
+  const optSoldDisplay = isThreshold ? String(Math.round(optSold)) : optSold.toFixed(1);
+  const revenueLabel = isThreshold ? `매출 (prob≥${thresholdVal})` : "기대 매출";
 
   el.kpiTable.innerHTML = "";
 
@@ -346,9 +371,9 @@ function renderKpiTable(summary) {
 
   const tbody = document.createElement("tbody");
   const rows = [
-    ["판매 좌석 수", `${baseSold}`, `${optSold.toFixed(1)}`, soldDelta, Number(soldDelta) >= 0],
+    ["판매 좌석 수", `${baseSold}`, optSoldDisplay, soldDelta, Number(soldDelta) >= 0],
     ["좌석 점유율", formatPct(base.occupancy_rate), formatPct(opt.occupancy_rate), `${occDeltaPp}%p`, Number(occDeltaPp) >= 0],
-    ["기대 매출", formatWon(base.expected_revenue), formatWon(opt.expected_revenue), revDeltaPct === "—" ? "—" : `${Number(revDeltaPct) >= 0 ? "+" : ""}${revDeltaPct}%`, Number(revDeltaPct) >= 0 || revDeltaPct === "—"],
+    [revenueLabel, formatWon(base.expected_revenue), formatWon(opt.expected_revenue), revDeltaPct === "—" ? "—" : `${Number(revDeltaPct) >= 0 ? "+" : ""}${revDeltaPct}%`, Number(revDeltaPct) >= 0 || revDeltaPct === "—"],
   ];
 
   for (const [label, a, b, delta, positive] of rows) {
@@ -402,6 +427,10 @@ function clearOptimization() {
     if (hint) hint.hidden = true;
   }
   if (el.kpiTable) el.kpiTable.innerHTML = "";
+  if (el.kpiNote) {
+    el.kpiNote.hidden = true;
+    el.kpiNote.textContent = "";
+  }
 }
 
 el.calPrev.addEventListener("click", () => {

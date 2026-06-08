@@ -479,5 +479,33 @@
       "sale_pred_actual_url": "assets/rounds/2026-05-24_19-00/seat_map_actual_sold.png"
     }
   ],
-  "class_plot": "assets/class-seatmap.png"
+  "class_plot": "assets/class-seatmap.png",
+  "kpi_method": "threshold_0.5",
+  "kpi_model": "final_model_cal40",
+  "kpi_note": "제안 점유·매출: sold_prob_proposed >= 0.5 → 판매 1. 기존: 실제 is_sold × 관측가.",
+  "pooled_kpi": {
+    "mode": "threshold",
+    "n_rounds": 25,
+    "n_seats_total": 23425,
+    "threshold": 0.5,
+    "price_grid_min": 10000,
+    "price_grid_max": 200000,
+    "mean_baseline_occ_pct": 58.82,
+    "mean_proposed_occ_pct": 70.57,
+    "pooled_baseline_occ_pct": 58.82,
+    "pooled_proposed_occ_pct": 70.57,
+    "occupancy_delta_pp_mean": 11.75,
+    "occupancy_delta_pp_median": 12.91,
+    "rounds_occ_up": 22,
+    "rounds_occ_down": 3,
+    "total_baseline_revenue": 1880070000,
+    "total_proposed_revenue": 1959050000,
+    "total_revenue_delta_won": 78980000,
+    "total_revenue_delta_pct": 4.2,
+    "total_revenue_delta_man": 7898,
+    "rounds_revenue_up": 14,
+    "rounds_revenue_down": 11,
+    "korea_benchmark_occ_pct": 88.0,
+    "model_name": "final_model_cal40"
+  }
 }
