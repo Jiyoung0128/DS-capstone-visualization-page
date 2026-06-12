@@ -13,6 +13,37 @@
       "has_figure": true,
       "has_baseline_figure": true,
       "has_sale_prediction": true,
+      "has_casting": true,
+      "casting": [
+        {
+          "role": "렘피카",
+          "actor": "김선영"
+        },
+        {
+          "role": "라파엘라",
+          "actor": "린아"
+        },
+        {
+          "role": "마리네티",
+          "actor": "조형균"
+        },
+        {
+          "role": "타데우스",
+          "actor": "김민철"
+        },
+        {
+          "role": "수지",
+          "actor": "최정원"
+        },
+        {
+          "role": "남작부인",
+          "actor": "김현숙"
+        },
+        {
+          "role": "남작",
+          "actor": "김민수"
+        }
+      ],
       "has_sale_pred_baseline": true,
       "has_sale_pred_proposed": true,
       "has_sale_pred_actual": true,
@@ -32,6 +63,37 @@
       "has_figure": true,
       "has_baseline_figure": true,
       "has_sale_prediction": true,
+      "has_casting": true,
+      "casting": [
+        {
+          "role": "렘피카",
+          "actor": "정선아"
+        },
+        {
+          "role": "라파엘라",
+          "actor": "차지연"
+        },
+        {
+          "role": "마리네티",
+          "actor": "조형균"
+        },
+        {
+          "role": "타데우스",
+          "actor": "김우형"
+        },
+        {
+          "role": "수지",
+          "actor": "김혜미"
+        },
+        {
+          "role": "남작부인",
+          "actor": "윤사봉"
+        },
+        {
+          "role": "남작",
+          "actor": "김민수"
+        }
+      ],
       "has_sale_pred_baseline": true,
       "has_sale_pred_proposed": true,
       "has_sale_pred_actual": true,
@@ -51,6 +113,37 @@
       "has_figure": true,
       "has_baseline_figure": true,
       "has_sale_prediction": true,
+      "has_casting": true,
+      "casting": [
+        {
+          "role": "렘피카",
+          "actor": "박혜나"
+        },
+        {
+          "role": "라파엘라",
+          "actor": "손승연"
+        },
+        {
+          "role": "마리네티",
+          "actor": "김호영"
+        },
+        {
+          "role": "타데우스",
+          "actor": "김민철"
+        },
+        {
+          "role": "수지",
+          "actor": "김혜미"
+        },
+        {
+          "role": "남작부인",
+          "actor": "김현숙"
+        },
+        {
+          "role": "남작",
+          "actor": "김남수"
+        }
+      ],
       "has_sale_pred_baseline": true,
       "has_sale_pred_proposed": true,
       "has_sale_pred_actual": true,
@@ -70,6 +163,37 @@
       "has_figure": true,
       "has_baseline_figure": true,
       "has_sale_prediction": true,
+      "has_casting": true,
+      "casting": [
+        {
+          "role": "렘피카",
+          "actor": "김선영"
+        },
+        {
+          "role": "라파엘라",
+          "actor": "손승연"
+        },
+        {
+          "role": "마리네티",
+          "actor": "조형균"
+        },
+        {
+          "role": "타데우스",
+          "actor": "김우형"
+        },
+        {
+          "role": "수지",
+          "actor": "김혜미"
+        },
+        {
+          "role": "남작부인",
+          "actor": "윤사봉"
+        },
+        {
+          "role": "남작",
+          "actor": "김남수"
+        }
+      ],
       "has_sale_pred_baseline": true,
       "has_sale_pred_proposed": true,
       "has_sale_pred_actual": true,
@@ -89,6 +213,37 @@
       "has_figure": true,
       "has_baseline_figure": true,
       "has_sale_prediction": true,
+      "has_casting": true,
+      "casting": [
+        {
+          "role": "렘피카",
+          "actor": "정선아"
+        },
+        {
+          "role": "라파엘라",
+          "actor": "손승연"
+        },
+        {
+          "role": "마리네티",
+          "actor": "조형균"
+        },
+        {
+          "role": "타데우스",
+          "actor": "김민철"
+        },
+        {
+          "role": "수지",
+          "actor": "김혜미"
+        },
+        {
+          "role": "남작부인",
+          "actor": "김현숙"
+        },
+        {
+          "role": "남작",
+          "actor": "김남수"
+        }
+      ],
       "has_sale_pred_baseline": true,
       "has_sale_pred_proposed": true,
       "has_sale_pred_actual": true,
@@ -108,6 +263,37 @@
       "has_figure": true,
       "has_baseline_figure": true,
       "has_sale_prediction": true,
+      "has_casting": true,
+      "casting": [
+        {
+          "role": "렘피카",
+          "actor": "김선영"
+        },
+        {
+          "role": "라파엘라",
+          "actor": "린아"
+        },
+        {
+          "role": "마리네티",
+          "actor": "김호영"
+        },
+        {
+          "role": "타데우스",
+          "actor": "김우형"
+        },
+        {
+          "role": "수지",
+          "actor": "최정원"
+        },
+        {
+          "role": "남작부인",
+          "actor": "윤사봉"
+        },
+        {
+          "role": "남작",
+          "actor": "김민수"
+        }
+      ],
       "has_sale_pred_baseline": true,
       "has_sale_pred_proposed": true,
       "has_sale_pred_actual": true,
@@ -127,6 +313,37 @@
       "has_figure": true,
       "has_baseline_figure": true,
       "has_sale_prediction": true,
+      "has_casting": true,
+      "casting": [
+        {
+          "role": "렘피카",
+          "actor": "박혜나"
+        },
+        {
+          "role": "라파엘라",
+          "actor": "손승연"
+        },
+        {
+          "role": "마리네티",
+          "actor": "김호영"
+        },
+        {
+          "role": "타데우스",
+          "actor": "김우형"
+        },
+        {
+          "role": "수지",
+          "actor": "최정원"
+        },
+        {
+          "role": "남작부인",
+          "actor": "윤사봉"
+        },
+        {
+          "role": "남작",
+          "actor": "김남수"
+        }
+      ],
       "has_sale_pred_baseline": true,
       "has_sale_pred_proposed": true,
       "has_sale_pred_actual": true,
@@ -146,6 +363,37 @@
       "has_figure": true,
       "has_baseline_figure": true,
       "has_sale_prediction": true,
+      "has_casting": true,
+      "casting": [
+        {
+          "role": "렘피카",
+          "actor": "정선아"
+        },
+        {
+          "role": "라파엘라",
+          "actor": "린아"
+        },
+        {
+          "role": "마리네티",
+          "actor": "조형균"
+        },
+        {
+          "role": "타데우스",
+          "actor": "김우형"
+        },
+        {
+          "role": "수지",
+          "actor": "김혜미"
+        },
+        {
+          "role": "남작부인",
+          "actor": "김현숙"
+        },
+        {
+          "role": "남작",
+          "actor": "김남수"
+        }
+      ],
       "has_sale_pred_baseline": true,
       "has_sale_pred_proposed": true,
       "has_sale_pred_actual": true,
@@ -165,6 +413,37 @@
       "has_figure": true,
       "has_baseline_figure": true,
       "has_sale_prediction": true,
+      "has_casting": true,
+      "casting": [
+        {
+          "role": "렘피카",
+          "actor": "김선영"
+        },
+        {
+          "role": "라파엘라",
+          "actor": "손승연"
+        },
+        {
+          "role": "마리네티",
+          "actor": "김호영"
+        },
+        {
+          "role": "타데우스",
+          "actor": "김민철"
+        },
+        {
+          "role": "수지",
+          "actor": "김혜미"
+        },
+        {
+          "role": "남작부인",
+          "actor": "윤사봉"
+        },
+        {
+          "role": "남작",
+          "actor": "김민수"
+        }
+      ],
       "has_sale_pred_baseline": true,
       "has_sale_pred_proposed": true,
       "has_sale_pred_actual": true,
@@ -184,6 +463,37 @@
       "has_figure": true,
       "has_baseline_figure": true,
       "has_sale_prediction": true,
+      "has_casting": true,
+      "casting": [
+        {
+          "role": "렘피카",
+          "actor": "박혜나"
+        },
+        {
+          "role": "라파엘라",
+          "actor": "차지연"
+        },
+        {
+          "role": "마리네티",
+          "actor": "김호영"
+        },
+        {
+          "role": "타데우스",
+          "actor": "김민철"
+        },
+        {
+          "role": "수지",
+          "actor": "최정원"
+        },
+        {
+          "role": "남작부인",
+          "actor": "윤사봉"
+        },
+        {
+          "role": "남작",
+          "actor": "김민수"
+        }
+      ],
       "has_sale_pred_baseline": true,
       "has_sale_pred_proposed": true,
       "has_sale_pred_actual": true,
@@ -203,6 +513,37 @@
       "has_figure": true,
       "has_baseline_figure": true,
       "has_sale_prediction": true,
+      "has_casting": true,
+      "casting": [
+        {
+          "role": "렘피카",
+          "actor": "정선아"
+        },
+        {
+          "role": "라파엘라",
+          "actor": "손승연"
+        },
+        {
+          "role": "마리네티",
+          "actor": "조형균"
+        },
+        {
+          "role": "타데우스",
+          "actor": "김우형"
+        },
+        {
+          "role": "수지",
+          "actor": "김혜미"
+        },
+        {
+          "role": "남작부인",
+          "actor": "김현숙"
+        },
+        {
+          "role": "남작",
+          "actor": "김남수"
+        }
+      ],
       "has_sale_pred_baseline": true,
       "has_sale_pred_proposed": true,
       "has_sale_pred_actual": true,
@@ -222,6 +563,37 @@
       "has_figure": true,
       "has_baseline_figure": true,
       "has_sale_prediction": true,
+      "has_casting": true,
+      "casting": [
+        {
+          "role": "렘피카",
+          "actor": "박혜나"
+        },
+        {
+          "role": "라파엘라",
+          "actor": "린아"
+        },
+        {
+          "role": "마리네티",
+          "actor": "조형균"
+        },
+        {
+          "role": "타데우스",
+          "actor": "김우형"
+        },
+        {
+          "role": "수지",
+          "actor": "김혜미"
+        },
+        {
+          "role": "남작부인",
+          "actor": "윤사봉"
+        },
+        {
+          "role": "남작",
+          "actor": "김민수"
+        }
+      ],
       "has_sale_pred_baseline": true,
       "has_sale_pred_proposed": true,
       "has_sale_pred_actual": true,
@@ -241,6 +613,37 @@
       "has_figure": true,
       "has_baseline_figure": true,
       "has_sale_prediction": true,
+      "has_casting": true,
+      "casting": [
+        {
+          "role": "렘피카",
+          "actor": "정선아"
+        },
+        {
+          "role": "라파엘라",
+          "actor": "손승연"
+        },
+        {
+          "role": "마리네티",
+          "actor": "김호영"
+        },
+        {
+          "role": "타데우스",
+          "actor": "김민철"
+        },
+        {
+          "role": "수지",
+          "actor": "최정원"
+        },
+        {
+          "role": "남작부인",
+          "actor": "윤사봉"
+        },
+        {
+          "role": "남작",
+          "actor": "김남수"
+        }
+      ],
       "has_sale_pred_baseline": true,
       "has_sale_pred_proposed": true,
       "has_sale_pred_actual": true,
@@ -260,6 +663,37 @@
       "has_figure": true,
       "has_baseline_figure": true,
       "has_sale_prediction": true,
+      "has_casting": true,
+      "casting": [
+        {
+          "role": "렘피카",
+          "actor": "김선영"
+        },
+        {
+          "role": "라파엘라",
+          "actor": "손승연"
+        },
+        {
+          "role": "마리네티",
+          "actor": "조형균"
+        },
+        {
+          "role": "타데우스",
+          "actor": "김민철"
+        },
+        {
+          "role": "수지",
+          "actor": "최정원"
+        },
+        {
+          "role": "남작부인",
+          "actor": "윤사봉"
+        },
+        {
+          "role": "남작",
+          "actor": "김남수"
+        }
+      ],
       "has_sale_pred_baseline": true,
       "has_sale_pred_proposed": true,
       "has_sale_pred_actual": true,
@@ -279,6 +713,37 @@
       "has_figure": true,
       "has_baseline_figure": true,
       "has_sale_prediction": true,
+      "has_casting": true,
+      "casting": [
+        {
+          "role": "렘피카",
+          "actor": "박혜나"
+        },
+        {
+          "role": "라파엘라",
+          "actor": "린아"
+        },
+        {
+          "role": "마리네티",
+          "actor": "조형균"
+        },
+        {
+          "role": "타데우스",
+          "actor": "김우형"
+        },
+        {
+          "role": "수지",
+          "actor": "김혜미"
+        },
+        {
+          "role": "남작부인",
+          "actor": "김현숙"
+        },
+        {
+          "role": "남작",
+          "actor": "김민수"
+        }
+      ],
       "has_sale_pred_baseline": true,
       "has_sale_pred_proposed": true,
       "has_sale_pred_actual": true,
@@ -298,6 +763,37 @@
       "has_figure": true,
       "has_baseline_figure": true,
       "has_sale_prediction": true,
+      "has_casting": true,
+      "casting": [
+        {
+          "role": "렘피카",
+          "actor": "김선영"
+        },
+        {
+          "role": "라파엘라",
+          "actor": "차지연"
+        },
+        {
+          "role": "마리네티",
+          "actor": "조형균"
+        },
+        {
+          "role": "타데우스",
+          "actor": "김우형"
+        },
+        {
+          "role": "수지",
+          "actor": "김혜미"
+        },
+        {
+          "role": "남작부인",
+          "actor": "김현숙"
+        },
+        {
+          "role": "남작",
+          "actor": "김남수"
+        }
+      ],
       "has_sale_pred_baseline": true,
       "has_sale_pred_proposed": true,
       "has_sale_pred_actual": true,
@@ -317,6 +813,37 @@
       "has_figure": true,
       "has_baseline_figure": true,
       "has_sale_prediction": true,
+      "has_casting": true,
+      "casting": [
+        {
+          "role": "렘피카",
+          "actor": "박혜나"
+        },
+        {
+          "role": "라파엘라",
+          "actor": "손승연"
+        },
+        {
+          "role": "마리네티",
+          "actor": "김호영"
+        },
+        {
+          "role": "타데우스",
+          "actor": "김우형"
+        },
+        {
+          "role": "수지",
+          "actor": "최정원"
+        },
+        {
+          "role": "남작부인",
+          "actor": "윤사봉"
+        },
+        {
+          "role": "남작",
+          "actor": "김민수"
+        }
+      ],
       "has_sale_pred_baseline": true,
       "has_sale_pred_proposed": true,
       "has_sale_pred_actual": true,
@@ -336,6 +863,37 @@
       "has_figure": true,
       "has_baseline_figure": true,
       "has_sale_prediction": true,
+      "has_casting": true,
+      "casting": [
+        {
+          "role": "렘피카",
+          "actor": "김선영"
+        },
+        {
+          "role": "라파엘라",
+          "actor": "손승연"
+        },
+        {
+          "role": "마리네티",
+          "actor": "조형균"
+        },
+        {
+          "role": "타데우스",
+          "actor": "김민철"
+        },
+        {
+          "role": "수지",
+          "actor": "김혜미"
+        },
+        {
+          "role": "남작부인",
+          "actor": "김현숙"
+        },
+        {
+          "role": "남작",
+          "actor": "김남수"
+        }
+      ],
       "has_sale_pred_baseline": true,
       "has_sale_pred_proposed": true,
       "has_sale_pred_actual": true,
@@ -355,6 +913,37 @@
       "has_figure": true,
       "has_baseline_figure": true,
       "has_sale_prediction": true,
+      "has_casting": true,
+      "casting": [
+        {
+          "role": "렘피카",
+          "actor": "박혜나"
+        },
+        {
+          "role": "라파엘라",
+          "actor": "린아"
+        },
+        {
+          "role": "마리네티",
+          "actor": "조형균"
+        },
+        {
+          "role": "타데우스",
+          "actor": "김민철"
+        },
+        {
+          "role": "수지",
+          "actor": "김혜미"
+        },
+        {
+          "role": "남작부인",
+          "actor": "김현숙"
+        },
+        {
+          "role": "남작",
+          "actor": "김남수"
+        }
+      ],
       "has_sale_pred_baseline": true,
       "has_sale_pred_proposed": true,
       "has_sale_pred_actual": true,
@@ -374,6 +963,37 @@
       "has_figure": true,
       "has_baseline_figure": true,
       "has_sale_prediction": true,
+      "has_casting": true,
+      "casting": [
+        {
+          "role": "렘피카",
+          "actor": "정선아"
+        },
+        {
+          "role": "라파엘라",
+          "actor": "손승연"
+        },
+        {
+          "role": "마리네티",
+          "actor": "조형균"
+        },
+        {
+          "role": "타데우스",
+          "actor": "김우형"
+        },
+        {
+          "role": "수지",
+          "actor": "최정원"
+        },
+        {
+          "role": "남작부인",
+          "actor": "윤사봉"
+        },
+        {
+          "role": "남작",
+          "actor": "김민수"
+        }
+      ],
       "has_sale_pred_baseline": true,
       "has_sale_pred_proposed": true,
       "has_sale_pred_actual": true,
@@ -393,6 +1013,37 @@
       "has_figure": true,
       "has_baseline_figure": true,
       "has_sale_prediction": true,
+      "has_casting": true,
+      "casting": [
+        {
+          "role": "렘피카",
+          "actor": "정선아"
+        },
+        {
+          "role": "라파엘라",
+          "actor": "손승연"
+        },
+        {
+          "role": "마리네티",
+          "actor": "조형균"
+        },
+        {
+          "role": "타데우스",
+          "actor": "김민철"
+        },
+        {
+          "role": "수지",
+          "actor": "김혜미"
+        },
+        {
+          "role": "남작부인",
+          "actor": "김현숙"
+        },
+        {
+          "role": "남작",
+          "actor": "김민수"
+        }
+      ],
       "has_sale_pred_baseline": true,
       "has_sale_pred_proposed": true,
       "has_sale_pred_actual": true,
@@ -412,6 +1063,37 @@
       "has_figure": true,
       "has_baseline_figure": true,
       "has_sale_prediction": true,
+      "has_casting": true,
+      "casting": [
+        {
+          "role": "렘피카",
+          "actor": "김선영"
+        },
+        {
+          "role": "라파엘라",
+          "actor": "린아"
+        },
+        {
+          "role": "마리네티",
+          "actor": "조형균"
+        },
+        {
+          "role": "타데우스",
+          "actor": "김우형"
+        },
+        {
+          "role": "수지",
+          "actor": "김혜미"
+        },
+        {
+          "role": "남작부인",
+          "actor": "윤사봉"
+        },
+        {
+          "role": "남작",
+          "actor": "김남수"
+        }
+      ],
       "has_sale_pred_baseline": true,
       "has_sale_pred_proposed": true,
       "has_sale_pred_actual": true,
@@ -431,6 +1113,37 @@
       "has_figure": true,
       "has_baseline_figure": true,
       "has_sale_prediction": true,
+      "has_casting": true,
+      "casting": [
+        {
+          "role": "렘피카",
+          "actor": "박혜나"
+        },
+        {
+          "role": "라파엘라",
+          "actor": "린아"
+        },
+        {
+          "role": "마리네티",
+          "actor": "조형균"
+        },
+        {
+          "role": "타데우스",
+          "actor": "김우형"
+        },
+        {
+          "role": "수지",
+          "actor": "김혜미"
+        },
+        {
+          "role": "남작부인",
+          "actor": "윤사복"
+        },
+        {
+          "role": "남작",
+          "actor": "김남수"
+        }
+      ],
       "has_sale_pred_baseline": true,
       "has_sale_pred_proposed": true,
       "has_sale_pred_actual": true,
@@ -450,6 +1163,37 @@
       "has_figure": true,
       "has_baseline_figure": true,
       "has_sale_prediction": true,
+      "has_casting": true,
+      "casting": [
+        {
+          "role": "렘피카",
+          "actor": "김선영"
+        },
+        {
+          "role": "라파엘라",
+          "actor": "손승연"
+        },
+        {
+          "role": "마리네티",
+          "actor": "조형균"
+        },
+        {
+          "role": "타데우스",
+          "actor": "김민철"
+        },
+        {
+          "role": "수지",
+          "actor": "김혜미"
+        },
+        {
+          "role": "남작부인",
+          "actor": "김현숙"
+        },
+        {
+          "role": "남작",
+          "actor": "김민수"
+        }
+      ],
       "has_sale_pred_baseline": true,
       "has_sale_pred_proposed": true,
       "has_sale_pred_actual": true,
@@ -469,6 +1213,37 @@
       "has_figure": true,
       "has_baseline_figure": true,
       "has_sale_prediction": true,
+      "has_casting": true,
+      "casting": [
+        {
+          "role": "렘피카",
+          "actor": "정선아"
+        },
+        {
+          "role": "라파엘라",
+          "actor": "차지연"
+        },
+        {
+          "role": "마리네티",
+          "actor": "조형균"
+        },
+        {
+          "role": "타데우스",
+          "actor": "김민철"
+        },
+        {
+          "role": "수지",
+          "actor": "김혜미"
+        },
+        {
+          "role": "남작부인",
+          "actor": "김현숙"
+        },
+        {
+          "role": "남작",
+          "actor": "김민수"
+        }
+      ],
       "has_sale_pred_baseline": true,
       "has_sale_pred_proposed": true,
       "has_sale_pred_actual": true,

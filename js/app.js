@@ -31,6 +31,8 @@ const el = {
   salePredActual: document.getElementById("sale-pred-actual"),
   salePredActualHint: document.getElementById("sale-pred-actual-hint"),
   placeholder: document.getElementById("opt-placeholder"),
+  castingSubtitle: document.getElementById("casting-subtitle"),
+  castingList: document.getElementById("casting-list"),
 };
 
 function showPanel(node) {
@@ -124,6 +126,7 @@ function selectDate(dateStr) {
   selectedSlug = null;
   renderCalendar();
   renderRoundButtons();
+  clearCasting();
   clearOptimization();
 }
 
@@ -180,10 +183,52 @@ function bindSeatmapImage(img, url, hintEl, missingMsg) {
   img.src = `${resolveAppUrl(url)}?t=${Date.now()}`;
 }
 
+function renderCasting(round) {
+  if (!el.castingList) return;
+
+  if (!round) {
+    clearCasting();
+    return;
+  }
+
+  if (el.castingSubtitle) {
+    el.castingSubtitle.textContent = `${round.date} ${round.time}`;
+    el.castingSubtitle.classList.remove("hint");
+  }
+
+  const casting = round.casting;
+  el.castingList.innerHTML = "";
+  if (!casting?.length) {
+    const empty = document.createElement("p");
+    empty.className = "hint";
+    empty.textContent = "캐스팅 정보가 없습니다.";
+    el.castingList.appendChild(empty);
+    return;
+  }
+
+  for (const { role, actor } of casting) {
+    const row = document.createElement("div");
+    row.className = "casting-row";
+    row.innerHTML = `
+      <span class="casting-role">${role}</span>
+      <span class="casting-actor">${actor}</span>`;
+    el.castingList.appendChild(row);
+  }
+}
+
+function clearCasting() {
+  if (el.castingSubtitle) {
+    el.castingSubtitle.textContent = "회차를 선택하세요";
+    el.castingSubtitle.classList.add("hint");
+  }
+  if (el.castingList) el.castingList.innerHTML = "";
+}
+
 async function selectRound(round) {
   clearError();
   selectedSlug = round.slug;
   renderRoundButtons();
+  renderCasting(round);
 
   if (!round.has_results) {
     clearOptimization();
@@ -397,6 +442,7 @@ function renderKpiTable(summary) {
 }
 
 function clearOptimization() {
+  if (!selectedSlug) clearCasting();
   hidePanel(el.comparePanel);
   hidePanel(el.kpiPanel);
   hidePanel(el.salePredPanel);
